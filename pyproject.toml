@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "big_data_with_pyspark"
+version = "0.1.0"
+description = ""
+authors = ["Wisaroot Lertthaweedech <l.wisaroot@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = { version = "*", extras = ["jupyter"] }
+isort = "*"
+ipykernel = "*"
+ruff = "*"
+mypy = "*"
+pre-commit = "*"
+pandas = "*"
+numpy = "*"
+pyspark = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
