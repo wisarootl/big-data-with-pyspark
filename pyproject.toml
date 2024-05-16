@@ -18,6 +18,8 @@ pre-commit = "*"
 pandas = "*"
 numpy = "*"
 pyspark = "*"
+pyarrow = "*"
+seaborn = "*"
 
 [build-system]
 requires = ["poetry-core"]
